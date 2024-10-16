@@ -10,3 +10,6 @@ astro config set postgres.port 5435
 
 assigning a flag to the start command `astro dev start`
 https://www.astronomer.io/docs/astro/cli/astro-dev-start
+
+Remove a file or folder from being tracked without deleting it
+ `git update-index --skip-worktree .astro/*`
